@@ -1,0 +1,12 @@
+<Hibernate-Mapping>
+<class name="org.abhi.DemoHib.Employee" table="Employee">
+<id name="id" column="id">
+<generator class="identity"></generator>
+</id>
+<property name="name" column="name"></property>
+<property name="desg" column="desigination"></property>
+<property name="salary" column="salary"></property>
+
+
+</class> 
+</Hibernate-Mapping>

@@ -1,0 +1,104 @@
+
+public class SwitchCase {
+
+	public static void main(String[] args) {
+		
+ 
+		int n1=223;
+		int n2=344;
+	
+		int option = 1;
+		
+		 
+		switch(option)
+		
+		{
+		case 1:
+		{ 
+			System.out.println(n1+n2);
+			
+		}
+		break;
+		case 2:
+		{
+			System.out.println(n1-n2);
+			
+		}
+		break;
+		case 3:
+		{ 
+			System.out.println(n1*n2);
+		}
+		break;
+		case 4:
+		{ 
+			System.out.println(n1/n2);
+		}
+		
+		
+		break;
+		
+		default:
+		{
+			System.out.println("invalid data");
+		}
+		break;
+	
+		}
+
+
+         ///CHECKING VOWELS
+		
+		
+		char ch= 'A';
+		
+		switch(ch)
+		{
+		 case 'A':
+		{
+			System.out.println("vowel");
+		}
+		 case 'E':
+			 
+		 { 
+			 System.out.println("vowel");
+		 }
+		 case 'I':
+		 {
+			 System.out.println("vowel");
+			 
+		 } 
+		 case 'O':
+		 {
+			 System.out.println("vowel");
+		 
+		 } 
+		 case 'U':
+		 {
+			 System.out.println("vowel");
+			 
+		 }
+		 default:
+		 {
+			 System.out.println("is a constant");
+		 }
+		}
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+}

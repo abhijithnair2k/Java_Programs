@@ -1,0 +1,23 @@
+package org.abhi.DemoHib;
+
+import javax.transaction.Transaction;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class SaveEmployee {
+	public static void main(String[] args) {
+		Employee e = new Employee();
+		e.setName("Abhijith");
+		e.setDesg("java dev");
+		e.setSalary(43000);
+		Configuration cfg = new Configuration();
+		cfg.configure();
+		SessionFactory factory = cfg.buildSessionFactory();
+		Session s = factory.openSession();
+		s.save(e);
+		Transaction t = s.beginTransaction();
+		t.commit();
+	}
+}

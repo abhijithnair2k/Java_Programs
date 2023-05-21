@@ -1,0 +1,52 @@
+
+public class Mobile {
+
+	String brand;
+	String name;
+	int price;
+	String ram;
+	   public static void main(String[] args) {
+		
+		   
+		  Mobile m1=new Mobile();
+		  m1.brand="Realme";
+		  m1.name="8pro";
+		  m1.price=199999;
+		  m1.ram="8gb";
+		   Mobile m2=new Mobile();
+		   m2.brand="Redmmi";
+		   m2.name="9pro";
+		   m2.price=20000;
+		   m2.ram="6gb";
+		   Mobile m3=new Mobile();
+		   m3.brand="apple";
+		   m3.name="iphone";
+		   m3.price=100000;
+		   m3.ram="4g"
+		   		
+				   
+				   
+				   m1.brand="oppo";
+		   System.out.println(m1.brand);
+		   System.out.println(m1.name);
+		   System.out.println(m1.price);
+		   System.out.println(m1.ram);
+		   System.out.println(m2.brand);
+		   System.out.println(m2.name);
+		   System.out.println(m2.price);
+		   System.out.println(m2.ram);System.out.println(m3.brand);
+		   System.out.println(m3.name);
+		   System.out.println(m3.price);
+		   System.out.println(m3.ram);
+		   
+	   }
+	   
+		   
+		   
+		   
+		   
+	
+
+	}
+
+

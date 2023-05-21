@@ -1,0 +1,22 @@
+
+public class Pen {
+
+	 
+	String name;
+	String colour;
+	int price;
+	public static void main(String[] args)
+	{
+	
+		pen p1= new pen();
+		 p1.name="lexi";
+		 p1.colour="black"
+				 p1.price=10;
+		 System.out.println(p1);
+		
+		
+	}
+	
+	}
+
+}
